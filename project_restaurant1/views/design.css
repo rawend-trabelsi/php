@@ -1,0 +1,45 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 15px;
+    background-color: #f9eef1;
+    border: 1px solid #d5acc8;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #b98fbf;
+    border-color: #b98fbf;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #916b8b;
+    border-color: #916b8b;
+}
+
+.btn-success {
+    background-color: #77c5d5;
+    border-color: #2d3a4b;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #557e91;
+    border-color: #557e91;
+}
+
+.doit {
+    color: #c55164;
+}

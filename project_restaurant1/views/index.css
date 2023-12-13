@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.gradient-custom {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-outline {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.form-control {
+    border: none;
+}
+
+.form-label {
+    color: #495057;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #495057;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #495057;
+}
