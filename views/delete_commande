@@ -1,0 +1,14 @@
+<?php
+require_once('../controllers/CommandeController.php');
+include_once('../database/config.php');
+include_once('../models/Order.php');
+
+if (isset($_GET['order_id'])) {
+    $order_id = $_GET['order_id'];
+    $Ctr = new CommandeController();
+    $Ctr->delete($order_id);
+    header('Location: home.php');
+} else {
+    echo "Invalid order_id";
+}
+?>

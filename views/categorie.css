@@ -1,0 +1,50 @@
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+color: #007bff;
+background: linear-gradient(to right, #007bff, #0056b3); /* Dégradé de couleur */
+-webkit-background-clip: text; /* S'applique au texte uniquement */
+background-clip: text;
+border: 2px solid #007bff; /* Bordure pour un effet 3D */
+border-radius: 5px;
+padding: 5px 10px; /* Espace autour du texte */
+display: inline-block; /* Permet d'appliquer la bordure et le fond uniquement autour du texte */
+margin-bottom: 10px; /* Espacement en bas */
+}
+
+label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn {
+    border-radius: 5px;
+}
