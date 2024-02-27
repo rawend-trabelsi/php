@@ -1,0 +1,55 @@
+/* Example styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #eee;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
